@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #7eb8d1;
+  color: #fff;
+}
+#header{
+  width: 100%;
+  height: 100vh;
+  background-image: url(/images/avion.jpg);
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
+text-decoration: none;
+font-size: 20px;
+position: relative;
+}
+
+.header-text{
+  margin-top: 20%;
+  font-size: 30px;
+}
+
+.header-text h1{
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.containerDos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cards{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-top: 3rem;
+  gap: 1rem;
+}
+
+.card1,.card2{
+  border-radius: 22px;
+  text-decoration: none;
+}
+
+.card1{
+  width: 20rem;
+  height: 32rem;
+  background-color:rgb(167, 225, 227) ;
+}
+
+.card2{
+  width: 20rem;
+  height: 32rem;
+  background-color:rgb(167, 225, 227);
+}
+.card3{
+  width: 20rem;
+  height: 32rem;
+  background-color:rgb(167, 225, 227) ;
+  border-radius: 22px;
+}
+
+
+img{
+  height: 200px;
+  width: 100%;
+}
+
+
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: #262626;
+  font-weight: 300;
+  margin-top: 20px;
+}
+/*-----------------Contact----------------------------*/
+
+.contact-left{
+  flex-basis: 35%;   
+}
+.contact-right{
+  flex-basis: 60%;   
+}
+.contact-left p{
+  margin-top: 30px;
+}
+.contact-left p i{
+  color: #f6ce07;
+  margin-right: 15px;
+  font-size: 25px; 
+}
+
+.contact-right form{
+  width: 100%;
+}
+
+form input, form textarea{
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #b6c4cb;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+form .btn.btn2{
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
